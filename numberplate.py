@@ -113,5 +113,5 @@ def recognize_number_plate(image_path, debug=False):
     print(f"Output saved as '{output_path}' with detected text: {formatted_text}")
 
 # Test the function with the uploaded image
-image_path = r"C:\Users\MadanRaj\OneDrive\Desktop\Green-number-plates.jpg"
+image_path = r"C:\Users\username\OneDrive\Desktop\Green-number-plates.jpg"
 recognize_number_plate(image_path, debug=True)
